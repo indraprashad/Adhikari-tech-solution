@@ -35,10 +35,20 @@
       name="twitter:image"
       content="https://lovable.dev/opengraph-image-p98pqg.png"
     />
-    <script type="module" crossorigin src="/assets/index-DOkq1NYt.js"></script>
+    <script type="module" crossorigin src="/assets/index-U17GYeth.js"></script>
     <link rel="stylesheet" crossorigin href="/assets/index-BoJ28bY6.css">
   </head>
   <body>
     <div id="root"></div>
+    <script>
+      // Handle redirects from 404.html
+      (function () {
+        // If we were redirected from 404.html with a hash containing the path
+        if (window.location.hash && window.location.hash.startsWith("#/")) {
+          const intendedPath = window.location.hash.substring(1);
+          window.history.replaceState(null, "", intendedPath);
+        }
+      })();
+    </script>
   </body>
 </html>
