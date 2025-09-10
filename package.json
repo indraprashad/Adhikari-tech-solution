@@ -2,7 +2,7 @@
   "name": "ats",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://indraprashad.github.io/Adhikari-tech-solution/",
+  "homepage": "https://adhikaritechsolution.com",
   "type": "module",
   "scripts": {
     "dev": "vite",
